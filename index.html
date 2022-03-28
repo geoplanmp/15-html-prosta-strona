@@ -8,13 +8,14 @@
 </head>
 <body>
     <!-- Menu nawigacyjne -->
-    <nav class="Menu nawigacyjne">
-        <ul class="Lista">
-            <li><a href="#About us">About us</a></li>
-            <li><a href="#Skills">Skills</a></li>
-            <li><a href="#Portfolio">Portfolio</a></li>
-            <li><a href="#Contact">Contact</a></li>
+    <nav class="menuNawigacyjne">
+        <ul class="lista">
+            <li><a href="#aboutUs">About us</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
+    </nav>
     <!-- Sekcja z artykułami -->
     <section>
         <!-- Artykuł o nas -->
@@ -24,25 +25,25 @@
         </article>
         <!-- Artykuł umiejętności -->
         <article>
-            <h1>Skills</h1>
+            <h2>Skills</h2>
             <div class="skill">
-                <h1>Wykonywanie pomiarów</h1>
+                <h3>Wykonywanie pomiarów</h3>
                 <p>Pomiary biegunowe</p>
             </div>
             <div class="skill">
-                <h1>Wykonywanie map</h1>
+                <h4>Wykonywanie map</h4>
                 <p>Mapy do celów projektowych</p>
             <div class="skill">
-                <h1>Wykonywanie opracowań</h1>
+                <h5>Wykonywanie opracowań</h5>
                 <p>Opracowania kartograficzne</p>
             <div class="skill">
-                <h1>Wykonywanie nalotów dronem</h1>
+                <h6>Wykonywanie nalotów dronem</h6>
                 <p>Tworzenie numerycznego modelu terenu</p>
             </div>
         </article>
         <!-- Artykuł portfolio -->
         <article>
-            <h1>Portfolio</h1>
+            <h7>Portfolio</h7>
             <div class="portfolio-item">
                 <img src="https://image.ceneostatic.pl/data/products/35341755/i-topcon-teodolit-tachimetr.jpg" alt="Pomiary biegunowe">
             </div>
@@ -55,23 +56,21 @@
         </article>
         <!-- Stopka -->
         <footer>
-            <h1>Contact</h1>
+            <h8>Contact</h8>
             <p>Michał Podciborski</p>
             <address>
                 <a href="mailto:geoplanmp@gmail.com">e-mail:geoplanmp@gmail.com</a>
             </address>
-
             <form>
-                <label for="Imię">Imię</label>
-                <input type="text" name="Imie" id="Imie" required/>
-                <label for="Temat">Temat:</label>
-                <input type="text" name="Temat" id="Temat" required/>
-                <label for="Wiadomosc">Wiadomosc</label>
-                <input type="text" name="Wiadomosc" id="Wiadomosc" required/>
-                <input type="button" id="Wyslij" value="Wyślij">
+                <label for="imie">Imię</label>
+                <input type="text" name="imie" id="imie" placeholder="Imie" required/>
+                <label for="temat">Temat:</label>
+                <input type="text" name="temat" id="temat" required/>
+                <label for="wiadomosc">Wiadomosc</label>
+                <input type="text" name="wiadomosc" id="wiadomosc" required/>
+                <input type="submit" id="wyslij" value="Wyślij">
             </form>
         </footer>
-    </section> 
-    </nav>
+    </section>   
 </body>
 </html>
